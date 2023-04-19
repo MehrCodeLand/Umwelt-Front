@@ -47,7 +47,7 @@ body {
 
 .form-div {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     margin-top: 1rem ;
     margin-bottom: 0px ;
@@ -57,13 +57,22 @@ body {
     border-radius: 0.3rem ;
 
     margin-top: 5rem ;
-    margin-left: 3rem ;
-    margin-right: 3rem ;
+    margin-left: 10rem ;
+    margin-right: 10rem ;
+    width: auto;
+    height: auto;
 }
 .form-signUp {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 10;
+}
+.main-right {
+    flex: 3;
+}
+.main-left {
+    flex: 3;
 }
 .form-input {
     display: flex;
@@ -89,6 +98,9 @@ button {
     border: none ;
     border-radius: 0.2rem ;
     padding: 0.6rem 1.3rem ;
+    background-color: #EDF1D6;
+    color: #609966;
+    font-weight: bold;
 }
 .submit {
     background-color: #EDF1D6;
@@ -105,5 +117,8 @@ button {
     margin-top: 2rem ;
     justify-content: center;
     background-color: #609966;
-    align-items: center;
+}
+.extra-form {
+    justify-content: center;
+    margin: 2rem ;
 }
